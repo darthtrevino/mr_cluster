@@ -1,0 +1,13 @@
+{
+  "name": "mr-cluster",
+  "version": "0.1.0",
+  "description": "Application Clustering",
+  "main": "index.js",
+  "author": "Chris Trevino (chris.trevino@atsid.com)",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "coffee-script": "^1.9.3",
+    "config": "^1.14.0",
+    "debug": "^2.2.0"
+  }
+}
