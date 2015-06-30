@@ -16,7 +16,7 @@ function startMaster () {
     for (i = 0; i < workerCount; i += 1) {
         cluster.fork();
     }
-    cluster.on("exit", (worker, code, signal) => {
+    cluster.on("exit", function (worker, code, signal) {
         debug("worker %d died (%s). restarting...", worker.process.pid, signal || code);
         cluster.fork();
     });
