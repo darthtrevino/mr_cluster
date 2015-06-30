@@ -1,6 +1,6 @@
 {
   "name": "mr-cluster",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Application Clustering",
   "main": "index.js",
   "author": "Chris Trevino (chris.trevino@atsid.com)",
